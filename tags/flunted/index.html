@@ -5,19 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Kevin&#39;s blog">
-    <title>Tag: Flunted - Kevin&#39;s blog</title>
-    <meta name="author" content="Kevin, 이용훈">
+    <meta name="generator" content="Kevin의 블로그">
+    <title>Tag: Flunted - Kevin의 블로그</title>
+    <meta name="author" content="Kevin">
     
     
     
     <script type="application/ld+json">{}</script>
     <meta property="og:type" content="blog">
-<meta property="og:title" content="Kevin&#39;s blog">
+<meta property="og:title" content="Kevin의 블로그">
 <meta property="og:url" content="http://usehun0625.github.io/tags/Flunted/index.html">
-<meta property="og:site_name" content="Kevin&#39;s blog">
+<meta property="og:site_name" content="Kevin의 블로그">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="Kevin, 이용훈">
+<meta property="article:author" content="Kevin">
 <meta name="twitter:card" content="summary">
     
     
@@ -69,7 +69,7 @@
             href="/%20"
             aria-label=""
         >
-            Kevin&#39;s blog
+            Kevin의 블로그
         </a>
     </div>
     
@@ -104,9 +104,9 @@
                 >
                     <img class="sidebar-profile-picture" src="/assets/images/crying_girl.jpg" alt="Author&#39;s picture"/>
                 </a>
-                <h4 class="sidebar-profile-name">Kevin, 이용훈</h4>
+                <h4 class="sidebar-profile-name">Kevin</h4>
                 
-                    <h5 class="sidebar-profile-bio"><p>…</p>
+                    <h5 class="sidebar-profile-bio"><p>Kevin, 이용훈입니다.<br>어릴 때부터 코딩에 흥미를 가지고 살아왔습니다. 새로운 기술도 열정적으로 받아들이며 더 좋은 개발을 위하여 학습하고 경험하고 노력하고 있습니다.</p>
 </h5>
                 
             </div>
@@ -118,11 +118,11 @@
                     
                         <a  class="sidebar-button-link "
                              href="/"
-                            title="Home"
+                            title="홈"
                         >
                     
                         <i class="sidebar-button-icon fa fa-home" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Home</span>
+                        <span class="sidebar-button-desc">홈</span>
                     </a>
             </li>
             
@@ -131,11 +131,11 @@
                         <a  class="sidebar-button-link "
                              href="/all-categories"
                             
-                            title="Categories"
+                            title="카테고리"
                         >
                     
                         <i class="sidebar-button-icon fa fa-bookmark" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Categories</span>
+                        <span class="sidebar-button-desc">카테고리</span>
                     </a>
             </li>
             
@@ -144,37 +144,24 @@
                         <a  class="sidebar-button-link "
                              href="/all-tags"
                             
-                            title="Tags"
+                            title="태그"
                         >
                     
                         <i class="sidebar-button-icon fa fa-tags" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Tags</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a  class="sidebar-button-link "
-                             href="/all-archives"
-                            
-                            title="Archives"
-                        >
-                    
-                        <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Archives</span>
+                        <span class="sidebar-button-desc">태그</span>
                     </a>
             </li>
             
                 <li class="sidebar-button">
                     
                         <a  class="sidebar-button-link open-algolia-search"
-                             href="#search"
+                             href="/all-archives"
                             
-                            title="Search"
+                            title="아카이브"
                         >
                     
-                        <i class="sidebar-button-icon fa fa-search" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Search</span>
+                        <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">아카이브</span>
                     </a>
             </li>
             
@@ -242,7 +229,7 @@
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/Tech/">Tech</a>
+    <a class="category-link" href="/categories/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91/">데이터 수집</a>
 
 
     
@@ -251,13 +238,10 @@
             </div>
             
                 <div class="postShorten-excerpt">
-                    <p>HTTP Data Listener 기능을 Fluentd의 Http Input Plugin을 사용하여 구성하고 테스트한 내용을 정리한다.</p>
-<p>테스트로 확인한 내용은 다음과 같다.</p>
+                    <p>HTTP Data Listener 기능을 Fluentd의 Http Input Plugin을 사용하여 구성하고 테스트한 내용을 정리한다.<br>테스트로 확인한 내용은 다음과 같다.</p>
 <ul>
 <li>Fluentd Http Input Plugin을 사용한 HTTP Listener가 오류없이 얼마나 많은 유저의 요청을 처리할 수 있는 지 확인 (부하 테스트)</li>
-<li>Fluentd Http Input Plugin을 사용한 HTTP Listener의 초당 처리량 확인 (성능 테스트)</li>
-</ul>
-<p>이 테스트는 Fluentd에서 지원하는 HTTP input Plugin의 기본적인 동작 성능을 확인하기 위한 목적으로 진행된 것이다.<br>하나의 머신에서 Data Sender와 Fluentd 환경이 모두 구성되고 테스트용으로 작은 테스트 데이터를 보내고 저장하는 방식으로 확인한 것이기 때문에 절대로 실제 프로덕션의 다양한 환경에서의 성능에 대한 기준지표로 사용하지 않도록 주의해야한다.</p>
+<li>Fluentd Http Input Plugin을 사용한 HTTP Listener의 초당 처리량 확인 (성능 테스트)
                     
                         <a
                             href="/2020/02/05/%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%8F%AC%EC%8A%A4%ED%8A%B8/"
@@ -287,7 +271,7 @@
 
                 <footer id="footer" class="main-content-wrap">
     <span class="copyrights">
-        Copyrights &copy; 2020 Kevin, 이용훈. All Rights Reserved.
+        Copyrights &copy; 2020 Kevin. All Rights Reserved.
     </span>
 </footer>
 
@@ -309,16 +293,16 @@
         
             <img id="about-card-picture" src="/assets/images/crying_girl.jpg" alt="Author&#39;s picture"/>
         
-            <h4 id="about-card-name">Kevin, 이용훈</h4>
+            <h4 id="about-card-name">Kevin</h4>
         
-            <div id="about-card-bio"><p>…</p>
+            <div id="about-card-bio"><p>Kevin, 이용훈입니다.<br>어릴 때부터 코딩에 흥미를 가지고 살아왔습니다. 새로운 기술도 열정적으로 받아들이며 더 좋은 개발을 위하여 학습하고 경험하고 노력하고 있습니다.</p>
 </div>
         
         
             <div id="about-card-job">
                 <i class="fa fa-briefcase"></i>
                 <br/>
-                <p>개발</p>
+                <p>Develope, DE</p>
 
             </div>
         
